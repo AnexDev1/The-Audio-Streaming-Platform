@@ -177,6 +177,7 @@ class _YoutubeScreenState extends State<YoutubeScreen> {
                   crossAxisCount: 2,
                   crossAxisSpacing: 10.0,
                   mainAxisSpacing: 20.0,
+                  childAspectRatio: 0.9
                 ),
                 padding: EdgeInsets.all(16),
                 itemCount: _isLoading ? 10 : _videos.length,
